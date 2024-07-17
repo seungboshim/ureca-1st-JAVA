@@ -90,7 +90,7 @@ public class DiceTest {
         }
         for(int i=start; i<=6; i++) {
             numbers[depth] = i;
-            dice3(depth+1, start+1);
+            dice3(depth+1, i);
         }
     }
 
